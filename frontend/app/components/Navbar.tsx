@@ -8,7 +8,7 @@ const Navbar = () => {
         <div className={`
             ${isOpen ? "max-h-96 opacity-100" : "h-0 opacity-0"}
             transition-all duration-1000 ease-in-out
-            w-full fixed top-24 left-0 overflow-hidden
+            w-full overflow-hidden
         `}>
             { isLoggedIn ? (
             

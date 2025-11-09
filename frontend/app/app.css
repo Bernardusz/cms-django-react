@@ -16,7 +16,7 @@ body {
 }
 
 .page{
-  @apply min-h-screen min-w-90 flex flex-col items-center justify-center;
+  @apply min-h-screen min-w-90 flex flex-col items-center ;
 }
 
 .font-heading{
@@ -25,4 +25,8 @@ body {
 
 .font-main{
   @apply font-['Bricolage_Grotesque',sans-serif] font-normal text-base;
+}
+
+.button-primary{
+  @apply bg-primary text-white px-6 py-2 rounded-lg hover:bg-primary/80 transition
 }
