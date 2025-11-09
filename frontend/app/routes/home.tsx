@@ -8,11 +8,12 @@ export function meta({}: Route.MetaArgs) {
 }
 
 export default function Home() {
-  return (
-    <div className="page">
-		<div>
-			
-		</div>
-    </div>
-  );
+    return (
+        <div className="page">
+            <div id="hero-section"
+            className="flex flex-col justify-center items-center">
+
+            </div>
+        </div>
+    );
 }
