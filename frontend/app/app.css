@@ -33,6 +33,10 @@ body {
   @apply bg-primary text-white px-6 py-2 rounded-lg hover:bg-white hover:text-primary hover:scale-110 transition
 }
 
+.box-primary{
+  @apply bg-primary text-white px-6 py-2 min-h-20 max-w-40 flex justify-center  items-center rounded-lg hover:bg-white hover:text-primary hover:scale-110 transition
+}
+
 .paragraph{
   @apply max-w-2xl text-lg ;
 }
@@ -42,5 +46,5 @@ body {
 }
 
 .section-nested{
-  @apply flex flex-col items-center justify-center w-full text-center px-10;
+  @apply flex flex-col justify-center w-full text-center px-10;
 }

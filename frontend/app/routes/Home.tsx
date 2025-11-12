@@ -91,22 +91,59 @@ export default function Home() {
                 <div className="w-full">
                     <h1 className="font-heading text-3xl text-left">🛣 Roadmap</h1>
                 </div>
-                <div id="roadmap-mvp-0.5" className="section-nested mt-10">
-                        <h1 className="font-heading text-3xl text-left">MVP - 0.5</h1>
-                    <ul className="font-main text-xl mt-5">
-                        <li className="relative pl-10 text-left before:absolute before:left-0 before:top-0 before:content-['🔒']">
-                            Authentication
-                        </li>
-                        <li className="relative pl-10 text-left before:absolute before:left-0 before:top-1 before:content-['✏']">
-                            Simple CRUD Admin
-                        </li>
-                        <li className="relative pl-10 text-left before:absolute before:left-0 before:top-1 before:content-['⛔']">
-                            Private & Public Content
-                        </li>
-                        <li className="relative pl-10 text-left before:absolute before:left-0 before:top-1 before:content-['📖']">
-                            Dasboard UI
-                        </li>
-                    </ul>
+                <div className="section-nested">
+                    <div id="roadmap-mvp-0.5" className="section-nested mt-10 border p-4 hover:scale-110 ">
+                        <h1 className="font-heading text-3xl text-center">MVP - v0.5</h1>
+                        <ul className="font-main text-xl mt-5">
+                            <li className="relative pl-10 text-left before:absolute before:left-0 before:top-0 before:content-['🔒']">
+                                Authentication
+                            </li>
+                            <li className="relative pl-10 text-left before:absolute before:left-0 before:top-1 before:content-['✏']">
+                                Simple CRUD Admin
+                            </li>
+                            <li className="relative pl-10 text-left before:absolute before:left-0 before:top-1 before:content-['⛔']">
+                                Private & Public Content
+                            </li>
+                            <li className="relative pl-10 text-left before:absolute before:left-0 before:top-1 before:content-['📖']">
+                                Dasboard UI
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="roadmap-mvp-1" className="section-nested mt-10 border p-4 hover:scale-110">
+                            <h1 className="font-heading text-3xl text-center">MVP - v1.0</h1>
+                        <ul className="font-main text-xl mt-5">
+                            <li className="relative pl-10 text-left before:absolute before:left-0 before:top-0 before:content-['📚']">
+                                3 Roles editing
+                            </li>
+                            <li className="relative pl-10 text-left before:absolute before:left-0 before:top-1 before:content-['📑']">
+                                Rich Text Editor
+                            </li>
+                            <li className="relative pl-10 text-left before:absolute before:left-0 before:top-1 before:content-['👀']">
+                                Improved UI
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="roadmap-mvp-2" className="section-nested mt-10 border p-4 hover:scale-110">
+                            <h1 className="font-heading text-3xl text-center">MVP - v2.0</h1>
+                        <ul className="font-main text-xl mt-5">
+                            <li className="relative pl-10 text-left before:absolute before:left-0 before:top-0 before:content-['🔒']">
+                                Better and Improved user roles and permissions
+                            </li>
+                            <li className="relative pl-10 text-left before:absolute before:left-0 before:top-1 before:content-['📂']">
+                                Media manager (Upload, Preview)
+                            </li>
+                            <li className="relative pl-10 text-left before:absolute before:left-0 before:top-1 before:content-['⏰']">
+                                Content scheduling
+                            </li>
+                            <li className="relative pl-10 text-left before:absolute before:left-0 before:top-1 before:content-['🔍']">
+                                Search, Filter and Pagination
+                            </li>
+                            <li className="relative pl-10 text-left before:absolute before:left-0 before:top-1 before:content-['📖']">
+                                Dashboard Analytics
+                            </li>
+                        </ul>
+                    </div>
+
                 </div>
             </section>
         </div>
